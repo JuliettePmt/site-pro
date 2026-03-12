@@ -37,7 +37,6 @@ src/config/portfolio.config.ts
 The configuration file contains the following sections:
 
 - **Basic Information**: Name, title, description, location
-- **Contact Information**: Email and other contact details
 - **Social Media Links**: Links to various social media profiles
 - **SEO Information**: Keywords, metadata, and SEO-related settings
 - **About Information**: Bio, hobbies, and personal details

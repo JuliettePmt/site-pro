@@ -1,20 +1,19 @@
 export const portfolioConfig = {
   // Basic Information
-  name: "Md Taqui Imam",
-  title: "Software Engineer",
-  description: "I am a Passionate Software Developer",
-  location: "Ramgarh cantt, Jharkhand, India",
+  name: "Juliette Parmentier",
+  title: "Doctorante en Interaction humain-machine et Sciences de l'information et de la communication",
+  description: "",
+  location: "Université libre de Bruxelles et Université de Namur (Belgique)",
 
   // Contact Information
   email: "taquiimam@example.com", // Replace with actual email if available
 
   // Social Media Links
   socialLinks: {
-    facebook: "https://www.facebook.com/shahina.khatun.1044",
-    twitter: "https://twitter.com/md_taqui_imam",
-    linkedin: "https://www.linkedin.com/in/taqui-imam",
-    external: "https://tinyurl.com/MdTaquiImam",
-    github: "https://github.com/taqui-786", // Assuming this is the GitHub link
+    linkedin: "https://www.linkedin.com/in/juliette-parmentier-9b75641b2/",
+    // external: "https://tinyurl.com/MdTaquiImam",
+    github: "https://github.com/JuliettePmt",
+    hal:"https://cv.hal.science/juliette-parmentier"
   },
 
   // SEO Information
@@ -23,34 +22,25 @@ export const portfolioConfig = {
     url: "https://mdtaquiimam.vercel.app",
     twitterHandle: "@md_taqui_imam",
     keywords: [
-      "md",
-      "taqui",
-      "imam",
-      "Md",
-      "MD",
-      "TAQUI",
-      "Taqui",
-      "Imam",
-      "Imam",
-      "Md Taqui Imam",
-      "md taqui imam",
-      "mdtaqui",
-      "mdtaquiimam",
-      "taqui imam",
-      "Taqui Imam",
-      "Taquiimam",
-      "portfolio",
-      "web developer",
-      "web",
-      "web dev",
-      "developer",
-      "PROGRAMMER ",
-      "programmer ",
-      "MD TAQUI IMAM ",
+      "Juliette",
+      "Parmentier",
+      "Quantification",
+      "PARMENTIER",
+      "JULIETTE PARMENTIER",
+      "juliette parmentier",
+      "juliette pARMENTIER",
+      "J Parmentier",
+      "J. Parmentier",
+      "J.P.",
+      "doctorante",
+      "PhD researcher",
+      "PhD",
       "website",
-      "@Taquiimam",
-      "Taquiimam",
-      "taqui developer",
+      "@JuliettePmt",
+      "parmentier Namur",
+      "Parmentier Bruxelles",
+      "Université libre de Bruxelles",
+      "Université de Namur"
     ],
     authors: [
       {
@@ -62,30 +52,30 @@ export const portfolioConfig = {
 
   // About Information
   about: {
-    bio: "I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand, India. I'm passionate about crafting web projects and contributing to open-source communities. I specialize in modern JavaScript frameworks and responsive CSS design, focusing on creating pixel-perfect, user-friendly interfaces. With strong attention to detail and efficient delivery, I build seamless web experiences that combine functionality with elegant design.",
+    bio: "Je suis doctorante en co-tutelle entre Sciences de l'information et de la communication et Informatique (interaction humain-machine), à l'Université libre de Bruxelles et à l'Université de Namur (en Belgique). Je suis sous la co-direction de Louis Wiart et Bruno Dumas.",
     hobbies: [
-      "Coding",
+      "Je m'intéresse à la quantification des pratiques culturelles. Plus précisément, à l'influence des chiffres, graphiques, statistiques, compteurs, notes, etcs. sur le rapport des individus à la lecture et aux livres.",
       "Playing Games",
       "Watching Anime",
       "Tech Blog Writing",
       "Creating Cool Projects",
     ],
     personalInfo: {
-      language: "English UK",
-      nationality: "India",
-      gender: "Male",
+      language: "Français",
+      nationality: "Française",
+      gender: "Female",
     },
   },
 
   // Skills and Roles
   skills: {
     roles: [
-      "Freelancer",
-      "Blogger",
-      "Gamer",
-      "Creator",
-      "Student",
-      "Contributer",
+      "Chercheuse",
+      // "Blogger",
+      // "Docto",
+      // "Creator",
+      // "Student",
+      // "Contributer",
     ],
     // Technical Skills
     programmingLanguages: [
@@ -195,90 +185,60 @@ export const portfolioConfig = {
   // Projects Information
   projects: [
     {
-      title: "WePost- A modern, minimalistic social platform.",
+      title: "Algepi",
       description:
-        "WePost is a modern, minimalistic social platform for sharing posts, like, follow, and engaging in comments etc.",
-      tags: ["Tanstack-Query", "PostgreSQL", "Shadcn Ui", "Nextjs"],
-      link: "https://we-post-dev.vercel.app",
+        "Algepi (Understanding ALGorithmic gatekeepers to promote EPIstemic welfare) est un projet européen réunissant 6 universités belges et suisses autour de la question des systèmes de recommandation dans les médias et les industries culturelles.",
+      tags: ["Projet de recherche", "Algorithmes", "Médias et industries culturelles"],
+      link: "https://www.algepi.com/",
     },
     {
-      title: "Devzone- A community chat app for devs",
+      title: "SwipeBooks",
       description:
-        "DevZone is the ultimate chat platform for developers to connect, collaborate, and code together. Join the conversation and level up your coding journey.",
-      tags: ["Zustand", "Supabase", "Shadcn Ui", "Nextjs"],
-      link: "https://devzone-ti.vercel.app/",
+        "Swipez des livres et obtenez votre profil de lecteur ! \n\nSwipeBooks est une application web développée dans le cadre d'un projet de recherche expérimental. Elle est utilisée pour conduire des tests utilisateurs, et comprendre le rapport que les lecteurs entretiennent aux systèmes de recommandation algorithmiques.",
+      tags: ["Développement", "Recherche expérimentale" , "Recommandation de livres", "Algorithmes", "React", "JSX", "Python"],
+      link: "https://test.info.unamur.be/",
+      githublink: "https://github.com/UNamurCSFaculty/TinderBook",
+
     },
     {
-      title: "itZmyLink- One Page many Links",
+      title: "Babelio Anti-Quanti",
       description:
-        "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/itZmyLink",
-    },
-    {
-      title: "GitEstimate- Github estimate worth generator",
-      description:
-        "GitEstimate is a simple fun tool where user can generate their github estimate worth card just by entering their github username. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/GitEstimate",
-    },
-    {
-      title: "Mixcn-ui- Reusable components for Nextjs",
-      description:
-        "This is Nextjs app with a Collection of Nextjs Components - (Currently under Devlelopment) ",
-      tags: ["Nextjs", "Shadcnui", "Npx", "Library"],
-      link: "https://mixcn-ui.vercel.app",
-    },
-    {
-      title: "Rupeespot- All deals Product in one place",
-      description:
-        "This is a free tool to check price history charts for millions of products for popular Indian stores such as Amazon and Flipkart. ",
-      tags: ["Nextjs", "Freelancing", "MySQL"],
-      link: "https://rupeespot.com/",
-    },
-    {
-      title: "Formcraft- Build Type-Safe Forms with Zero Effort",
-      description:
-        "Create production-ready forms with Zod validation, React Hook Form, and TypeScript. Design, customize, and deploy in minutes.",
-      tags: ["Nextjs", "Shadcnui", "Zod", "React Hook Form "],
-      link: "https://formcraft-ti.vercel.app/",
-    },
-    {
-      title: "KryptoKapital- Investing in Cryptocurreny",
-      description:
-        "This is a platform for learning about cryptocurrency with many tools and festures. It is very big project. ",
-      tags: ["Nextjs", "Freelancing", "Supabase"],
-      link: "https://pro.kryptokapital.info/",
-    },
-    {
-      title: "FriendZ - A social media Platform",
-      description:
-        "FriendZ is a social media app made with modern tech stacks such as redis, Authjs etc. A user can Create, delete, like, comment Post. ",
-      tags: ["Redis", "Authjs", "Typescript", "Nextjs"],
-      link: "https://github.com/taqui-786/project-friendz",
-    },
-    {
-      title: "ChatApp- Simple instagram clone",
-      description:
-        "ChatApp is similar to instagram, you can create, edit, delete, like,comment, post and  Follow, unfollow users",
-      tags: ["Reactjs", "Javascript"],
-      link: "https://github.com/taqui-786/chatapp-api",
-    },
-    {
-      title: "Devletter - A Newsletter for devs",
-      description:
-        "Devletter ia a newsletter subscribing single page app made with Nextjs and Tailwindcss.",
-      tags: ["Nextjs", "Tailwindcss"],
-      link: "https://github.com/taqui-786/Devletter",
-    },
-    {
-      title: "CrouMaker - A Crousal Maker App",
-      description:
-        "Crousal Maker is a tool with in-built crousals templates edit and download it in any format.",
-      tags: ["Nextjs", "jsPDF", "html2canvas", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/crousal-maker",
+        "Une extension qui supprime la quantification de l'interface de la plateforme littéraire française Babelio. \n\nCette extension est utilisée pour conduire des expériences scientifiques longitudinales, dont l'objectif est de saisir le lien intime que les individus entretiennent aux nombres et aux statistiques.\n\nDisponible sur Chrome et Firefox. ",
+      tags: ["Développement", "Recherche expérimentale" , "Plateformes littéraires", "Quantification", "Javascript", "Plugin"],
+      link: "https://chromewebstore.google.com/detail/babelio-anti-quanti/naflkjcclkkaallpfpkokchcgjclifag?hl=fr&pli=1",
+      githublink: "https://github.com/JuliettePmt/Babelio-AntiQuanti",
+
     },
   ],
+
+  // Publications Information
+  publications: [
+    {
+      title: "Cultures de la quantification et quantification de la culture",
+      subtitle: "Les effets de la mise en nombre des pratiques littéraires sur les utilisateurs de plateformes numériques",
+      author:"Juliette Parmentier",
+      journal:"Communication",
+      date:"2025",
+      description:"Description",
+      tags: ["Open source"],
+      link: "https://journals.openedition.org/communication/21836",
+    },
+
+    {
+      title: "Trouver la perle rare? Enjeux de visibilisation des livres sur les plateformes culturelles numériques",
+      subtitle: "Étude quantitative de SensCritique",
+      author:"Juliette Parmentier",
+      journal:"Mémoires du livre / Studies in Book Culture",
+      date:"2025",
+      description:
+        "Description",
+      tags: ["Open source"],
+      link: "https://journals.openedition.org/communication/21836",
+    },
+
+  ],
+
+
 
   // More Links Information
   moreLinks: [

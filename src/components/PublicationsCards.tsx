@@ -3,6 +3,7 @@ import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import {
   Card,
+  CardMetadata,
   CardContent,
   CardFooter,
   CardHeader,
@@ -11,10 +12,13 @@ import {
 import FramerWrapper from "./animation/FramerWrapper";
 import { ArrowUpRight } from "lucide-react";
 
-interface ProjectCardProps {
+interface PublicationCardProps {
   value: {
     title: string;
+    author: string;
+    journal: string;
     description: string;
+    date: string;
     tags: string[];
     link: string;
     githublink?: string;
@@ -22,7 +26,7 @@ interface ProjectCardProps {
   num: number;
 }
 
-const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
+const PublicationCards: React.FC<PublicationCardProps> = ({ value, num }) => {
   return (
     <FramerWrapper 
       className="max-w-[32%] max-lg:max-w-full" 
@@ -35,7 +39,9 @@ const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
         <CardHeader className="pb-2">
           <CardTitle className="text-xl font-bold text-primary">{value.title}</CardTitle>
         </CardHeader>
-        
+        <CardMetadata className="text-sm text-tertiary">
+          {value.author},{" "}<span className="italic">{value.journal}</span>,  {value.date}{"."}
+        </CardMetadata>
         <CardContent className="flex-grow flex flex-col gap-4">
         <p className="text-sm text-muted-foreground leading-relaxed whitespace-pre-line">{value.description}</p>          
           <div className="flex flex-wrap gap-2">
@@ -79,7 +85,7 @@ const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
               "w-fit transition-all hover:translate-y-[-2px] hover:shadow-md group"
             )}
           >
-            Voir le projet
+            Lire l'article
             <ArrowUpRight className="h-4 w-4 ml-1 hidden group-hover:block -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200" />
           </Link>
 
@@ -103,4 +109,4 @@ const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
   );
 };
 
-export default ProjectCards;
+export default PublicationCards;

@@ -1,7 +1,7 @@
 import Heading from "@/components/Heading";
 import SkillsFooter from "@/components/SkillsFotter";
 import { Badge } from "@/components/ui/badge";
-import { LightbulbIcon } from "lucide-react";
+import { LightbulbIcon} from "lucide-react";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 import { portfolioConfig } from "@/config/portfolio.config";
 

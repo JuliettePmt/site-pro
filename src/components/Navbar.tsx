@@ -8,6 +8,7 @@ import {
   GraduationCap,
   HomeIcon,
   LightbulbIcon,
+  BookMarked,   
   Mail,
   MoreHorizontal,
  
@@ -25,48 +26,48 @@ const Navbar = () => {
 
   const data = [
     {
-      title: 'Home',
+      title: 'Accueil',
       icon: (
         <HomeIcon className='h-full w-full ' />
       ),
       href: '/',
     },
     {
-      title: 'About',
+      title: 'Qui suis-je ?',
       icon: (
         <User className='h-full w-full ' />
       ),
       href: '/about',
     },
     {
-      title: 'Skills',
+      title: 'Publications',
       icon: (
-        <LightbulbIcon className='h-full w-full ' />
+        <BookMarked className='h-full w-full ' />
       ),
-      href: '/skills',
+      href: '/publications',
     },
+    // {
+    //   title: 'Compétences',
+    //   icon: (
+    //     <LightbulbIcon className='h-full w-full ' />
+    //   ),
+    //   href: '/skills',
+    // },
+    // {
+    //   title: 'Parcours',
+    //   icon: (
+    //     <GraduationCap className='h-full w-full ' />
+    //   ),
+    //   href: '/education',
+    // },
     {
-      title: 'Education',
-      icon: (
-        <GraduationCap className='h-full w-full ' />
-      ),
-      href: '/education',
-    },
-    {
-      title: 'Projects',
+      title: 'Projets',
       icon: (
         <FolderGit2 className='h-full w-full ' />
       ),
       href: '/projects',
     },
    
-    {
-      title: 'Contact us',
-      icon: (
-        <Mail className='h-full w-full ' />
-      ),
-      href: '/contact',
-    },
     {
       title: 'More',
       icon: (
@@ -106,7 +107,7 @@ const Navbar = () => {
           className={cn("aspect-square rounded-full bg-gray-200 dark:bg-neutral-800",pathname === item.href && " bg-gray-100 !border !border-primary-sky")}
           >
           <DockLabel >{item.title}</DockLabel>
-          <DockIcon className={cn(pathname === item.href && "text-[#2f7df4]")}>{item.icon}</DockIcon>
+          <DockIcon className={cn(pathname === item.href && "text-[#F54927]")}>{item.icon}</DockIcon> 
         </DockItem>
           </Link>
       ))}
