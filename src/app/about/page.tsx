@@ -6,7 +6,7 @@ import { Circle, Heart, User2 } from "lucide-react";
 import { portfolioConfig } from "@/config/portfolio.config";
 
 const page = () => {
-  const items = portfolioConfig.about.hobbies.map((hobby) => ({ hobby }));
+  // const items = portfolioConfig.about.hobbies.map((hobby) => ({ hobby }));
   const phd_description = portfolioConfig.about.phd_description;
 
   return (
@@ -27,13 +27,7 @@ const page = () => {
           </p>
         </FramerWrapper>
       </div>
-      <FramerWrapper
-        className="w-full flex flex-row justify-between max-lg:flex-col "
-        y={100}
-        delay={0.3}
-      >
-        {/* <Aboutfooter /> Pour ajouter les infos type "langue", etc. */}
-      </FramerWrapper>
+
 
     </div>
   );
