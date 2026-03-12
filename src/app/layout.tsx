@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(portfolioConfig.seo.url),
   title: {
     default: portfolioConfig.name,
-    template: `%s - ${portfolioConfig.title}`,
+    template: `%s - ${portfolioConfig.name}`,
   },
   description: portfolioConfig.description,
 
