@@ -14,9 +14,9 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
  
-    --primary: 15 100% 35.5%; /* HSL color */
+    --primary: 357, 68%, 30%; /* HSL color */
     --primary-foreground: 210 40% 98%;
-    --primary-sky: 15 100% 63.6%;
+    --primary-sky: 4, 55%, 55%; /* HSL color for underlining, for example */
  
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;

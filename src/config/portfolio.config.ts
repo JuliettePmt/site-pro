@@ -56,12 +56,12 @@ export const portfolioConfig = {
     bio: "Je suis doctorante en co-tutelle entre Sciences de l'information et de la communication et Informatique (interaction humain-machine), à l'Université libre de Bruxelles et à l'Université de Namur (en Belgique). Je suis sous la co-direction de Louis Wiart et Bruno Dumas.",
 
   phd_description: "Je m'intéresse à la quantification des pratiques culturelles. Plus précisément, à l'influence des chiffres, graphiques, statistiques, compteurs, notes, etcs. sur le rapport des individus à la lecture et aux livres.",
-    hobbies: [
-      "Playing Games",
-      "Watching Anime",
-      "Tech Blog Writing",
-      "Creating Cool Projects",
-    ],
+    // hobbies: [
+    //   "Playing Games",
+    //   "Watching Anime",
+    //   "Tech Blog Writing",
+    //   "Creating Cool Projects",
+    // ],
     personalInfo: {
       languages: "Français",
       disciplines: "SIC & HCI",
