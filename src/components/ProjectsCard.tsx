@@ -1,3 +1,5 @@
+'use client'
+import { useLang } from '@/context/LangContext'
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
@@ -23,6 +25,7 @@ interface ProjectCardProps {
 }
 
 const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
+  const { lang } = useLang()
   return (
     <FramerWrapper 
       className="max-w-[32%] max-lg:max-w-full" 
@@ -75,7 +78,7 @@ const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
               "w-fit transition-all hover:translate-y-[-2px] hover:shadow-md group"
             )}
           >
-            Voir le projet
+            {lang === 'fr' ? 'Voir le projet' : 'View project'}
             <ArrowUpRight className="h-4 w-4 ml-1 hidden group-hover:block -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200" />
           </Link>
 
@@ -89,7 +92,7 @@ const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
                 "w-fit transition-all hover:translate-y-[-2px] hover:shadow-md group ml-3"
               )}
             >
-              Voir le code sur Github
+              {lang === 'fr' ? 'Voir le code sur Github' : 'View code on Github'}
               <ArrowUpRight className="h-4 w-4 ml-1 hidden group-hover:block -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200" />
             </Link>
           )}

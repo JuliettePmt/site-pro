@@ -26,7 +26,6 @@ interface PublicationCardProps {
     githublink?: string;
   };
   num: number;
-  lang: 'fr' | 'en';
 }
 
 const PublicationCards: React.FC<PublicationCardProps> = ({ value, num }) => {
