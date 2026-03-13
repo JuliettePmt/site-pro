@@ -1,4 +1,4 @@
-export const translations = {
+export const translations_projects = {
     fr: {
       projects_badge: "Projets de recherche",
       projects_title: "Projets",
@@ -56,7 +56,7 @@ export const translations = {
   
   } as const
   
-  export type TranslationKey = keyof typeof translations.fr
+  export type TranslationKey = keyof typeof translations_projects.fr
 
 
   
