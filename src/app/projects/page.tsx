@@ -6,11 +6,11 @@ import { Badge } from "@/components/ui/badge";
 import { Layers } from "lucide-react";
 import { portfolioConfig } from "@/config/portfolio.config";
 import { useLang } from "@/context/LangContext";
-import { translations } from "@/lib/translations_projects";
+import { translations_projects } from "@/lib/translations_projects";
 
 const projectsPage = () => {
   const { lang } = useLang();
-  const t = translations[lang];
+  const t = translations_projects[lang];
 
 return (
 // PROJECT PAGE
