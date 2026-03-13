@@ -46,7 +46,7 @@ export const translations_projects = {
         },
         {
           title: "Babelio Anti-Quanti",
-          description: "A browser extension that removes quantification from the interface of the French literary platform Babelio. \n\nThis extension is used to conduct longitudinal scientific experiments, aimed at understanding the intimate relationship that individuals have with numbers and statistics.\n\nAvailable on Chrome and Firefox.",
+          description: "A browser extension that removes quantification from the interface of the French literary platform Babelio. \n\nThis extension is used to conduct longitudinal scientific experiments, aimed at understanding the intimate relationship that individuals create with numbers and statistics.\n\nAvailable on Chrome and Firefox.",
           tags: ["Development", "Experimental research", "Literary platforms", "Quantification", "Javascript", "Plugin"],
           link: "https://chromewebstore.google.com/detail/babelio-anti-quanti/naflkjcclkkaallpfpkokchcgjclifag?hl=fr&pli=1",
           githublink: "https://github.com/JuliettePmt/Babelio-AntiQuanti",
