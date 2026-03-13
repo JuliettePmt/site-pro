@@ -4,6 +4,7 @@ import {
   // ExternalLink,
   Github,
 } from "lucide-react";
+import researchgateLogo from "./logos/researchgate_logo.png"
 import halLogoSrc from "./logos/hal_logo.svg"
 import { buttonVariants } from "./ui/button";
 import Link from "next/link";
@@ -21,6 +22,11 @@ const SocialLinks = () => {
       name: "Hal",
       link: portfolioConfig.socialLinks.hal,
       icon: <img src={halLogoSrc.src} alt="Hal" width={(50)} height={30} />,
+    },
+    {
+      name: "ResearchGate",
+      link: portfolioConfig.socialLinks.researchgate,
+      icon: <img src={researchgateLogo.src} alt="ResearchGate" width={(25)} height={20} />,
     },
     // {
     //   name: "External",

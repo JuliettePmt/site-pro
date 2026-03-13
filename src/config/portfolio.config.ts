@@ -14,7 +14,8 @@ export const portfolioConfig = {
     linkedin: "https://www.linkedin.com/in/juliette-parmentier-9b75641b2/",
     // external: "https://tinyurl.com/MdTaquiImam",
     github: "https://github.com/JuliettePmt",
-    hal:"https://cv.hal.science/juliette-parmentier"
+    hal:"https://cv.hal.science/juliette-parmentier",
+    researchgate:"https://www.researchgate.net/profile/Juliette-Parmentier?ev=hdr_xprf"
   },
 
   // SEO Information
