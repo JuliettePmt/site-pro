@@ -15,7 +15,7 @@ interface ProjectCardProps {
   value: {
     title: string;
     description: string;
-    tags: string[];
+    tags: readonly string[];
     link: string;
     githublink?: string;
   };
