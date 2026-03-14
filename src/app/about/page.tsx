@@ -30,9 +30,10 @@ return (
  {t.bio[4]} {t.bio[5]} {t.bio[6]} <span className="text-xl">{t.disciplines[1]}</span> {t.bio[8]} <span className="text-xl text-[hsl(var(--primary-sky))]">{t.faculties[1]}</span>.
 </p>
 <Heading>
-{t.phd_subject}
+<p className="w-full mt-10">
+{t.intro_phd}</p>
 </Heading>
-<p className=" font-poppins text-sm w-full text-tertiary max-sm:text-lg mt-7">{t.phd_subject}
+<p className=" font-poppins text-sm w-full text-tertiary max-sm:text-lg  mt-5">{t.phd_subject}
 </p>
 </FramerWrapper>
 </div>
