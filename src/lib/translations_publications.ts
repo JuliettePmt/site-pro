@@ -38,7 +38,7 @@ export const translations_publications = {
           journal: "Communication",
           date: "2025",
           description: "",
-          tags: ["Open source"],
+          tags: ["Open science"],
           link: "https://journals.openedition.org/communication/21836",
         },
         {
@@ -48,7 +48,7 @@ export const translations_publications = {
           journal: "Mémoires du livre / Studies in Book Culture",
           date: "2025",
           description: "",
-          tags: ["Open source"],
+          tags: ["Open science"],
           link: "https://www.erudit.org/fr/revues/memoires/2025-v16-n2-memoires010471/1122235ar/",
         },
       ],
