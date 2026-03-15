@@ -55,6 +55,8 @@ const PublicationCards: React.FC<PublicationCardProps> = ({ value, num }) => {
                 'Research project': 'bg-yellow-100 text-yellow-800',
                 'Projet de recherche': 'bg-yellow-100 text-yellow-800',
                 'Open source': 'bg-blue-100 text-blue-800',
+                'Libre accès': 'bg-blue-100 text-blue-800',
+                'Open science': 'bg-blue-100 text-blue-800',
                 'Shadcn Ui': 'bg-blue-100 text-blue-800',
                 'Autre': 'bg-blue-100 text-blue-800',
               }[tag] || 'bg-gray-100 text-gray-800';
