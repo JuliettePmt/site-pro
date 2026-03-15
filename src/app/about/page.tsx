@@ -46,9 +46,9 @@ const page = () => {
       </div>
 
       {/* Colonne droite - carte tout en haut */}
-      <div className="flex-1 pt-2">
-        <MapChart />
-      </div>
+      <div className="flex-1 pt-2 hidden md:block">
+      <MapChart />
+    </div>
 
     </div>
   );
