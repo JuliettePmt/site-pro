@@ -9,7 +9,7 @@ export const translations_about = {
     faculties: ["Université libre de Bruxelles", "Université de Namur"],
     profs: ["Louis Wiart", "Bruno Dumas"],
     intro_phd:"Ma thèse",
-    phd_subject:"Ma thèse vise à analyser la façon dont, sur Internet, les activités de lecture sont traduites en statistiques, notes, graphiques ou métriques quantifiées, et à saisir les effets de cette « mise en nombre » sur le rapport que les lecteurs entretiennent aux pratiques littéraires.",
+    phd_subject:["Ma thèse vise à analyser la façon dont, sur Internet les", "activités littéraires", "sont", "traduites en statistiques, notes, graphiques ou métriques quantifiées", "et à saisir les", "effets de cette « mise en nombre »", "sur le rapport que les lecteurs entretiennent aux livres et aux pratiques de lecture."]
   },
   en: {
     badge: "About",
@@ -21,6 +21,13 @@ export const translations_about = {
     faculties: ["Université libre de Bruxelles", "University of Namur"],
     profs: ["Louis Wiart", "Bruno Dumas"],
     intro_phd:"My PhD thesis",
-    phd_subject:"My PhD thesis aims to analyze how, on the Internet, reading activities are translated into statistics, ratings, graphs, or quantified metrics, and to understand the effects of this quantification on the relationship readers develop with literary practices.",
-  },
+    phd_subject: [
+      "My thesis aims to analyze how, on the Internet, ",
+      "literary activities",
+      " are ",
+      "translated into statistics, ratings, graphs or quantified metrics",
+      ", and to understand the ",
+      "effects of this quantification",
+      " on the relationship readers have with books and reading practices."
+    ]  },
 }
