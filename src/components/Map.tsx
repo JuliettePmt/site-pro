@@ -75,7 +75,7 @@ const conference_cities = [
     labelY: -12,
     labelX: 0,
     anchor: "middle" as const,
-    color: "#1C5C3A"
+    color: "#008000"
   },
 ]
 
