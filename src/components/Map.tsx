@@ -81,13 +81,16 @@ const conference_cities = [
 
 const legend = {
   en: [
+    { color: "#cb564d", label: "Home universities" },
     { color: "#3B82F6", label: "Conferences" },
     { color: "#008000", label: "Summer schools" },
   ],
   fr: [
+    { color: "#cb564d", label: "Universités de rattachement" },
     { color: "#3B82F6", label: "Conférences" },
     { color: "#008000", label: "Écoles d'été" },
   ],
+  
 }
 
 export default function MapChart() {
