@@ -24,7 +24,7 @@ const conference_cities = [
   {
     name: { en: "Roma", fr: "Rome" },
     coordinates: [12.4964, 41.9028] as [number, number],
-    labelY: -12,
+    labelY: 18,
     labelX: 0,
     anchor: "middle" as const,
     color: "#3B82F6"
@@ -40,7 +40,7 @@ const conference_cities = [
     color: "#3B82F6"
   },
   { name: { en: "Brno", fr: "Brno" }, coordinates: [16.6068, 49.1951] as [number, number], labelY: -10, labelX: 0, anchor: "middle" as const, color: "#3B82F6" },
-  { name: { en: "Bergamo", fr: "Bergame" }, coordinates: [9.6699, 45.6983] as [number, number], labelY: 16, labelX: 0, anchor: "middle" as const, color: "#3B82F6" },
+  { name: { en: "Bergamo", fr: "Bergame" }, coordinates: [9.6699, 45.6983] as [number, number], labelY: 17, labelX: 0, anchor: "middle" as const, color: "#3B82F6" },
   { name: { en: "Aubervilliers", fr: "Aubervilliers" }, coordinates: [2.3833, 48.9167] as [number, number], labelY: 2.5, labelX: 50, anchor: "middle" as const, color: "#3B82F6" },
   {
     name: { en: "Paris", fr: "Paris" },
