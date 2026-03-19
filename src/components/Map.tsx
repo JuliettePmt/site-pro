@@ -29,20 +29,25 @@ const conference_cities = [
     anchor: "middle" as const,
     color: "#3B82F6"
   },
-  {
-    name: { en: "Paris", fr: "Paris" },
-    coordinates: [2.3522, 48.8566] as [number, number],
-    labelY: 16,
-    labelX: 0,
-    anchor: "middle" as const,
-    color: "#3B82F6"
-  },
+
+  
   {
     name: { en: "Toulouse", fr: "Toulouse" },
     coordinates: [1.4442, 43.6047] as [number, number],
     labelY: 4,
     labelX: 12,
     anchor: "start" as const,
+    color: "#3B82F6"
+  },
+  { name: { en: "Brno", fr: "Brno" }, coordinates: [16.6068, 49.1951] as [number, number], labelY: -10, labelX: 0, anchor: "middle" as const, color: "#3B82F6" },
+  { name: { en: "Bergamo", fr: "Bergame" }, coordinates: [9.6699, 45.6983] as [number, number], labelY: 16, labelX: 0, anchor: "middle" as const, color: "#3B82F6" },
+  { name: { en: "Aubervilliers", fr: "Aubervilliers" }, coordinates: [2.3833, 48.9167] as [number, number], labelY: 2.5, labelX: 50, anchor: "middle" as const, color: "#3B82F6" },
+  {
+    name: { en: "Paris", fr: "Paris" },
+    coordinates: [2.3522, 48.8566] as [number, number],
+    labelY: 18,
+    labelX: 0,
+    anchor: "middle" as const,
     color: "#3B82F6"
   },
   {
@@ -72,7 +77,7 @@ const conference_cities = [
   {
     name: { en: "Vienna", fr: "Vienne" },
     coordinates: [16.3738, 48.2082] as [number, number],
-    labelY: -12,
+    labelY: 18,
     labelX: 0,
     anchor: "middle" as const,
     color: "#008000"
