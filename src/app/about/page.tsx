@@ -39,13 +39,13 @@ const page = () => {
           </p> */}
 
            <p className="font-poppins text-sm w-full text-tertiary max-sm:text-lg leading-loose">
-            {t.intro[1]} {t.bio[0]} {t.bio[1]} {t.bio[2]}{" "}
+            Ma thèse, interdisciplinaire, s'effectue en cotutelle entre le département de  
             <strong>{t.disciplines[0]}</strong> {t.bio[3]}
             <strong><span className="text-sm text-[hsl(var(--primary-sky))]">{t.faculties[0]}</span></strong>{" "}
 
           {" "} {t.bio[4]}{" "} {t.bio[5]}
           {" "} {t.bio[6]}<strong>{t.disciplines[1]}</strong> {t.bio[8]}
-          <strong><span className="text-sm text-[hsl(var(--primary-sky))]">{t.faculties[1]}</span></strong>.
+          <strong><span className="text-sm text-[hsl(var(--primary-sky))]">{t.faculties[1]}</span></strong>. Je suis sous la co-direction de Bruno Dumas (Unamur) et de Louis Wiart (ULB).
           </p> 
 
           <Heading><p className="w-full mt-10">{t.intro_phd}</p></Heading>
