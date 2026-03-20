@@ -3,7 +3,7 @@ import Aboutfooter from "@/components/Aboutfooter";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 import Heading from "@/components/Heading";
 import { Badge } from "@/components/ui/badge";
-import { Circle, Heart, User2 } from "lucide-react";
+import { Circle, Heart, User2,ExternalLink } from "lucide-react";
 import { portfolioConfig } from "@/config/portfolio.config";
 import { useLang } from "@/context/LangContext";
 import { translations_about } from "@/lib/translations_about";
@@ -40,14 +40,12 @@ const page = () => {
 
            <p className="font-poppins text-sm w-full text-tertiary max-sm:text-lg leading-loose">
             {t.intro[1]} {t.bio[0]} {t.bio[1]} {t.bio[2]}{" "}
-            {t.disciplines[0]} {t.bio[3]}
-            <span className="text-sm text-[hsl(var(--primary-sky))]">{t.faculties[0]}</span>{" "}
-          </p>
-          <p className="font-poppins text-sm w-full text-tertiary max-sm:text-lg leading-loose">
+            <strong>{t.disciplines[0]}</strong> {t.bio[3]}
+            <strong><span className="text-sm text-[hsl(var(--primary-sky))]">{t.faculties[0]}</span></strong>{" "}
+
           {" "} {t.bio[4]}{" "} {t.bio[5]}
-          {" "} {t.bio[6]}{" "}
-            {t.disciplines[1]} {t.bio[8]}
-            <span className="text-sm text-[hsl(var(--primary-sky))]">{t.faculties[1]}</span>.
+          {" "} {t.bio[6]}<strong>{t.disciplines[1]}</strong> {t.bio[8]}
+          <strong><span className="text-sm text-[hsl(var(--primary-sky))]">{t.faculties[1]}</span></strong>.
           </p> 
 
           <Heading><p className="w-full mt-10">{t.intro_phd}</p></Heading>
@@ -57,10 +55,27 @@ const page = () => {
         </FramerWrapper>
       </div>
 
-      {/* Colonne droite - carte tout en haut */}
-      <div className="flex-1 pt-2 hidden xl:block">
+    {/* Colonne droite - carte tout en haut */}
+    <div className="flex-1 pt-2 hidden xl:block">
       <MapChart />
+      <p className="font-poppins text-sm text-center text-tertiary mt-2">
+        {lang === 'fr' ? (
+          <a href="https://difusion.ulb.ac.be/vufind/Author/Home?author=Parmentier,%20Juliette" target="_blank"
+          rel="noopener noreferrer" className="inline-flex items-center gap-1 underline hover:text-[hsl(var(--primary-sky))] transition-colors">
+            Voir la liste de mes communications
+            <ExternalLink className={"h-3 w-3"} />
+          </a>
+        ) : (
+          <a href="https://difusion.ulb.ac.be/vufind/Author/Home?author=Parmentier,%20Juliette" target="_blank"
+          rel="noopener noreferrer" className="inline-flex items-center gap-1 underline hover:text-[hsl(var(--primary-sky))] transition-colors">
+            See the list of my communications
+            <ExternalLink className={"h-3 w-3"} />
+          </a>
+          
+        )}
+      </p>
     </div>
+
 
     </div>
   );
