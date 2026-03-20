@@ -67,13 +67,13 @@ const Navbar = () => {
       ),
       href: '/projects',
     },
-    {
-      title: 'Affiliations',
-      icon: (
-        <LandmarkIcon className='h-full w-full ' />
-      ),
-      href: '/affiliations',
-    },
+    // {
+    //   title: 'Affiliations',
+    //   icon: (
+    //     <LandmarkIcon className='h-full w-full ' />
+    //   ),
+    //   href: '/affiliations',
+    // },
    
     // {
     //   title: 'More',
