@@ -32,7 +32,7 @@ const page = () => {
                 <span className="text-xl text-[hsl(var(--primary-sky))]">{t.faculties[1]}</span>.
                 </p> */}
         <p className="font-poppins text-sm w-full text-tertiary max-sm:text-lg leading-loose">
-                Ma thèse, interdisciplinaire, s'effectue en cotutelle entre le département de  
+                Ma thèse, interdisciplinaire, s'effectue en cotutelle entre le département de  
         <strong>{t.disciplines[0]}</strong> {t.bio[3]}
         <strong><span className="text-sm text-[hsl(var(--primary-sky))]">{t.faculties[0]}</span></strong>{" "}
         {" "} {t.bio[4]}{" "} {t.bio[5]}
