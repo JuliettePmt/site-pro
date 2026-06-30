@@ -84,7 +84,6 @@ const conference_cities = [
     url: ""
   },
   
-
   { name: { en: "Brno", fr: "Brno" }, coordinates: [16.6068, 49.1951] as [number, number], labelY: -10, labelX: 0, anchor: "middle" as const, color: "#3B82F6", url: "" },
 
 ]
